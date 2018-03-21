@@ -80,6 +80,7 @@ pipeline {
             }
             container('gradle') {
               sh 'gradle --version'
+              sh 'echo success'
             }
           }
         }
